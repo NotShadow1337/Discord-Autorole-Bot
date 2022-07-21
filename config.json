@@ -1,0 +1,8 @@
+{
+    "token":"",
+    "guild_id":"",
+    "emojis":{
+        "success":":white_check_mark:",
+        "failure":":x:"
+    }
+}
