@@ -33,7 +33,7 @@ async def ping(ctx):
     if not int(guild_id)== ctx.guild.id:
         guild = client.get_guild(int(guild_id))
         await ctx.respond(f'{error_emoji} This command is only available in the `{guild}` server.')
-    await ctx.respond(f'Pong! **{round(client.latency * 1000)}*ms 🏓')
+    await ctx.respond(f'Pong! **{round(client.latency * 1000)}**ms 🏓')
 
 #the autorole commands start from here
 #command to add a role to the autorole list
